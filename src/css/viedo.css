@@ -1,0 +1,17 @@
+.video > iframe{
+    position: relative;
+    box-shadow: 0px 5px 10px -7px rgba(0,0 ,0 ,0.75 );
+    border-radius: 10px;
+    width: 350px;
+    transition: transform 100ms ease-in;
+}
+.viedo > iframe:hover{
+     transform: scale(1.07);;
+}
+.video{
+    padding: 10px;
+    padding-top: 12px;
+}
+.viedo:hover{
+    background-color: white;
+}

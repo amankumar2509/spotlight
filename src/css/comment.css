@@ -1,0 +1,59 @@
+.modal_content {
+  background-color: white;
+  position: relative;
+  width: 613px;
+  height: auto;
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 5px 7px -7px rgba(0,0,0,0.75);
+  border-radius:10 10 10 15px;
+}
+.clear__icon:hover{
+   color: red;
+}
+.modal_content > form{
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+}
+.modal_content > form > p{
+    display: flex;
+}
+.user__detail{
+  display: flex;
+}
+.commenter__detail{
+  display: flex ;
+}
+.commenter__detail >p{
+  margin-left: 10px;
+    margin-top: -1px;
+}
+.comment{
+  padding-top: 20px;
+}
+.comment > .time__stamp > p{
+  margin-left: 50px;
+    margin-top: -21px;
+    font-size: 11px;
+}
+.user__detail > p{
+  margin-left: 10px;
+    margin-top: 7px;
+}
+.enter__comment{
+  margin-top: 18px;
+  background-color: #eff2f5;
+    padding: 10px;
+    width: 400px;
+    margin-left: 7px;
+    border-radius: 999px;
+}
+.enter__comment > input{
+  border: none;
+    background-color: transparent;
+    outline-width: 0;
+}
+.enter__comment > button{
+  display: none;
+}
